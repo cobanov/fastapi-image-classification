@@ -1,0 +1,6 @@
+timm
+torch
+fastapi
+Pillow
+uvicorn
+python_multipart
