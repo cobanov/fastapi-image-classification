@@ -7,8 +7,8 @@ This is a Dockerized application that combines the power of Torch, Timm, FastAPI
 1. Clone this repository to your local machine:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/cobanov/fastapi-image-classification.git
+cd fastapi-image-classification
 ```
 
 2. Build and run the docker image
@@ -16,6 +16,4 @@ cd <repository-directory>
 ```bash
 docker build -t image_recognition .
 docker run -d -p 80:80 image_recognition
-docker run -it -p 8000:8000 image_recognition /bin/bash
-
 ```
